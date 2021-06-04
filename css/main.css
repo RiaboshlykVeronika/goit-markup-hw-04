@@ -50,6 +50,7 @@ img {display: block;}
 .contacts-list {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 
 .nav-item:not(:last-child) {
@@ -145,7 +146,8 @@ img {display: block;}
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    
+    display: flex;
+    align-items: center;
 }
 
 .link-current:hover, .link-current:focus, .nav-link:hover, .nav-link:focus, .contact-link:hover, .contact-link:focus, .footer-link:hover, .footer-link:focus {
@@ -343,7 +345,11 @@ img {display: block;}
     background-position: center;
  }
  
- .icon 
-    {fill: red;
-    stroke: red;
+ .icon {
+    fill: var(--primary-text-color);
+    margin-right: 10px;
+}
+
+.icon:hover {
+    fill: currentColor;
 }
