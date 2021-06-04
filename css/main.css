@@ -9,6 +9,7 @@
     --grey-background-color: #F5F4FA;
     --border-color: #EEEEEE;
     --border-bottom: #ECECEC;
+    --link-color: #AFB1B8;
 }
 
 * {
@@ -251,7 +252,7 @@ img {display: block;}
     color: var(--primary-white-color);
 }
 
-.link-current, .nav-link, .contact-link {
+.link-current, .nav-link {
     display: block;
 }
 
@@ -349,6 +350,24 @@ img {display: block;}
     fill: var(--primary-text-color);
     margin-right: 10px;
 }
+
+.icon-item {
+    fill: green;
+}
+.icon-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.icon-link {
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    background: var(--primary-white-color);
+    display: flex;
+    border-radius: 50%;}
 
 .icon:hover {
     fill: currentColor;
