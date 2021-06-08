@@ -149,7 +149,7 @@ img {
     text-decoration: none;
 }
 
-.contact-link{
+.contact-link {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -307,8 +307,11 @@ img {
      margin-right: 8px;
  }
 
+ .project-list {
+     flex-basis: calc((100% / 3) - 60px);   
+ }
+
 .project-box {
-    width: 370px;
     background-color: var(--primary-white-color) ;
     box-sizing: border-box;
     margin: 15px;
